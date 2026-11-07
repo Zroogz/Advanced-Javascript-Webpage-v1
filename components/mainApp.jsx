@@ -1,7 +1,8 @@
-import React from 'react';
-import Header from './header.jsx';
-import Nav from './nav.jsx';
-import Footer from './footer.jsx';
+import React from 'react'
+import Header from './header.jsx'
+import Nav from './nav.jsx'
+import Footer from './footer.jsx'
+import StarRating from './starRating.jsx'
 
 function App() {
   const personalInfo = {
@@ -16,13 +17,13 @@ function App() {
     { id: 2, name: "Sketching Art" },
     { id: 3, name: "Learning Electronics" },
     { id: 4, name: "Video Gaming" }
-  ];
+  ]
 
   const socials = [
     { platform: "GitHub", url: "#" },
     { platform: "LinkedIn", url: "#" },
     { platform: "Twitter", url: "#" }
-  ];
+  ]
 
   return (
     <div className="app-container">
@@ -41,7 +42,9 @@ function App() {
           <h2>My Favorite Hobbies</h2>
           <ul className="personal-favorites">
             {hobbies.map((hobby) => (
-              <li key={hobby.id}>{hobby.name}</li>
+              <li key={hobby.id}>
+                {hobby.name} <StarRating initialRating={3} />
+              </li>
             ))}
           </ul>
         </section>
@@ -49,7 +52,7 @@ function App() {
 
       <Footer copyright={personalInfo.copyright} socialLinks={socials} />
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Footer = ({ copyright, socialLinks }) => {
   return (
@@ -12,7 +12,7 @@ const Footer = ({ copyright, socialLinks }) => {
         ))}
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

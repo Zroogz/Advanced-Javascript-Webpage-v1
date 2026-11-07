@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 const Header = (props) => {
-  const displayName = props.name;
-  const displayTagline = props.tagline;
+  const displayName = props.name
+  const displayTagline = props.tagline
 
   return (
     <header className="site-header">
@@ -12,7 +12,7 @@ const Header = (props) => {
       </div>
       {props.children}
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
