@@ -3,6 +3,7 @@ import Header from './header.jsx'
 import Nav from './nav.jsx'
 import Footer from './footer.jsx'
 import StarRating from './starRating.jsx'
+import MovieList from './MovieList.jsx'
 
 function App() {
   const personalInfo = {
@@ -47,6 +48,11 @@ function App() {
               </li>
             ))}
           </ul>
+        </section>
+
+        <section className="movies-section">
+          <h2>My Favorite Movies</h2>
+          <MovieList />
         </section>
       </main>
 
