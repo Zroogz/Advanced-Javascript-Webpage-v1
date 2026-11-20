@@ -22,7 +22,7 @@ function useFetch(url) {
 
 // Main Component Function
 function MovieList() {
-  const { data, isLoading, error } = useFetch('/data/movies.json');
+  const { data, isLoading, error } = useFetch(`${import.meta.env.BASE_URL}data/movies.json`);
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;

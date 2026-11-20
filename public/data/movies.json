@@ -5,7 +5,7 @@
     "year": 1994,
     "genre": "Drama",
     "director": "Frank Darabont",
-    "rating": 0
+    "rating": 1
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "year": 2008,
     "genre": "Action",
     "director": "Christopher Nolan",
-    "rating": 0
+    "rating": 3
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "year": 2010,
     "genre": "Sci-Fi",
     "director": "Christopher Nolan",
-    "rating": 0
+    "rating": 3
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "year": 1994,
     "genre": "Crime",
     "director": "Quentin Tarantino",
-    "rating": 0
+    "rating": 4
   },
   {
     "id": 5,
@@ -37,6 +37,6 @@
     "year": 1999,
     "genre": "Sci-Fi",
     "director": "Lana & Lilly Wachowski",
-    "rating": 0
+    "rating": 5
   }
 ]
